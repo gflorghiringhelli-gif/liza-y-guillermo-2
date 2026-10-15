@@ -95,7 +95,6 @@ body {
     color: #4a362e !important; 
 }
 
-
 .boton-editorial-inicio {
     background: var(--white); color: var(--text-dark); padding: 14px 24px; border-radius: 6px;
     font-family: 'Times New Roman', Times, serif; font-size: 0.8rem; letter-spacing: 2.5px; font-weight: 500;
@@ -368,7 +367,7 @@ footer { padding: 30px 20px; font-size: 0.68rem; letter-spacing: 3px; color: var
 .cronograma-icon-circle-fixed {
   width: 48px;
   height: 48px;
-  background-color: #8a7a65 !important; /* Marrón terracota exacto para el círculo */
+  background-color: #8a7a65 !important;
   border-radius: 50%;
   display: flex !important;
   align-items: center;
@@ -379,7 +378,7 @@ footer { padding: 30px 20px; font-size: 0.68rem; letter-spacing: 3px; color: var
 
 .cronograma-icon-circle-fixed i {
   font-size: 1.2rem;
-  color: #ffffff !important; /* Ícono blanco brillante */
+  color: #ffffff !important;
 }
 
 .cronograma-text-box {
@@ -389,18 +388,24 @@ footer { padding: 30px 20px; font-size: 0.68rem; letter-spacing: 3px; color: var
 }
 
 .cronograma-time-row {
-  font-family: var(--font-sans);
+  font-family: 'Times New Roman', Times, serif;
   font-size: 0.72rem;
   letter-spacing: 2px;
-  color: #8a7a65 !important; /* Hora en marrón terracota */
+  color: #8a7a65 !important;
   font-weight: 600;
 }
 
 .cronograma-title-row {
-  font-family: var(--font-garamond);
+  font-family: 'Times New Roman', Times, serif;
   font-size: 1.2rem;
   font-weight: 400;
-  color: #2c2c2c !important; /* Título del evento en oscuro */
+  color: #2c2c2c !important;
   line-height: 1.3;
   margin-top: 2px;
+}
+
+/* NOMBRES DE LA PORTADA EN BLANCO BRILLANTE Y LEGIBLES */
+.main-title-portada, .names-script-arch {
+    color: #ffffff !important;
+    text-shadow: 0 4px 18px rgba(0, 0, 0, 0.85);
 }
